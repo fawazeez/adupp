@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">അടുpp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_home">അടുpp</string>
+    <string name="action_aboutus">AboutUs</string>
+     <string name="str_next">Next</string>
+     <string name="str_prev">Previous</string>
+     <string name="str_gallery">Gallery</string>
+        <string name="str_image1">ImAGE1</string>
+           <string name="str_image2">ImAGE2</string>
+              <string name="str_image3">ImAGE3</string>
+              <string name="str_google">Google</string>
+
+     
+    
+    
+
+</resources>

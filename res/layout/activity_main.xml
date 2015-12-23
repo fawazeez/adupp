@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+           xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ android:background="@drawable/border"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    >
+    
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+		android:background="@drawable/newgradient"
+         android:contentDescription="@string/app_name"
+         android:src="@drawable/hm_adupp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#00FEFD00"
+        android:layout_marginTop="70dp"
+        android:text="@string/str_next" />
+   <ScrollView 
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textView1"
+        android:layout_height="wrap_content" >
+        
+      <LinearLayout
+          android:id="@+id/linearlayout1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" 
+          android:weightSum="2"
+          android:baselineAligned="false"
+          android:orientation="horizontal" >
+
+         <LinearLayout
+             android:id="@+id/linearlayout2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="3dp"
+             android:layout_weight="1"
+             android:orientation="vertical" >
+
+             <ImageButton
+                 android:id="@+id/imagesoup"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="left"
+                 android:layout_margin="10dp"
+	             android:background="#00FEFD00"
+                 android:contentDescription="@string/ic_prawns"
+                 android:src="@drawable/mn_soup" />
+
+         <ImageButton
+             android:id="@+id/imagechicken"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="left"
+             android:layout_margin="10dp"
+             android:background="#00FEFD00"
+             android:contentDescription="@string/ic_chicken"
+             android:src="@drawable/mn_chicken" />
+
+         <ImageButton
+             android:id="@+id/imagevegetable"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="left"
+             android:layout_margin="10dp"
+             android:background="#00FEFD00"
+             android:contentDescription="@string/ic_chorl"
+             android:src="@drawable/mn_vegetable" />
+         
+         <ImageButton
+             android:id="@+id/imagepickle"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+                        android:layout_gravity="left"
+             android:background="#00FEFD00"
+             android:contentDescription="@string/ic_chorl"
+             android:src="@drawable/mn_pickle" />
+         
+         <ImageButton
+             android:id="@+id/imagebakery"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+                        android:layout_gravity="left"
+             android:background="#00FEFD00"
+             android:contentDescription="@string/ic_chorl"
+             android:src="@drawable/mn_bakery" />
+
+         <ImageButton
+             android:id="@+id/imagerice"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+             android:layout_gravity="left"
+             android:background="#00FEFD00"
+             android:contentDescription="@string/ic_chorl"
+             android:src="@drawable/mn_rice" />
+ <ImageButton
+             android:id="@+id/imagepudding"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+                        android:layout_gravity="left"
+             android:background="#00FEFD00"
+             android:contentDescription="@string/ic_chorl"
+             android:src="@drawable/mn_pudding" />
+         
+     </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/linearlayout3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="5dp"
+              android:layout_weight="1"
+             android:orientation="vertical" >
+         
+             <ImageButton
+                 android:id="@+id/imagefish"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="right"
+                 android:layout_margin="10dp"
+                 android:layout_marginRight="2dp"
+                 android:background="#00FEFD00"
+                 android:contentDescription="@string/ic_prawns"
+                 android:src="@drawable/mn_fish" />
+             
+         <ImageButton
+             android:id="@+id/imagemeat"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+                       android:layout_gravity="right"
+             android:layout_marginTop="5dp"
+             android:background="#00FEFD00"
+             android:contentDescription="@string/ic_prawns"
+             android:src="@drawable/mn_meat" />
+         
+           <ImageButton
+               android:id="@+id/imageprawns"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="10dp"
+               android:background="#00FEFD00"
+                         android:layout_gravity="right"
+               android:contentDescription="@string/ic_prawns"
+               android:src="@drawable/mn_prawns" />
+           
+             <ImageButton
+                 android:id="@+id/imageroti"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="10dp"
+                 android:background="#00FEFD00"
+                           android:layout_gravity="right"
+                 android:contentDescription="@string/ic_prawns"
+                 android:src="@drawable/mn_roti" />
+
+    <ImageButton
+        android:id="@+id/imagesnacks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+                  android:layout_gravity="right"
+        android:background="#00FEFD00"
+        android:contentDescription="@string/ic_prawns"
+        android:src="@drawable/mn_snacks" />
+
+         <ImageButton
+             android:id="@+id/imagedrinks"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+                       android:layout_gravity="right"
+             android:background="#00FEFD00"
+             android:contentDescription="@string/ic_prawns"
+             android:src="@drawable/mn_drinks" />
+         
+             <ImageButton
+             android:id="@+id/imagesalad"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+                       android:layout_gravity="right"
+             android:background="#00FEFD00"
+             android:contentDescription="@string/ic_prawns"
+             android:src="@drawable/mn_salad" />
+             
+   
+     </LinearLayout>
+         
+   
+     </LinearLayout>
+</ScrollView>
+</RelativeLayout>
+
+
+
